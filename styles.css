@@ -18,6 +18,8 @@ body{
 .card-img{
    text-align: center;
    margin-top: 0.6rem;
+   position: relative;
+   
 }
 .card-img > img{
     border-radius: 10px;
@@ -92,3 +94,12 @@ hr{
     font-weight: 400;
     font-size: 0.9rem;
 }
+h1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.author:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
